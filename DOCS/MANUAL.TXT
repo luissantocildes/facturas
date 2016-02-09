@@ -1,0 +1,185 @@
+                 Documentaci¢n del programa de Facturaci¢n
+
+1. Introducci¢n:
+Factura es un programa que hace facturas, lleva una lista de
+clientes y otra de art°culos.
+
+2. Control del programa:
+El control del programa se realiza a travÇs del men£ que aparece en
+la parte superior de la pantalla. A las distintas opciones se
+accede pulsando en el teclado las teclas que est†n remarcadas en el
+men£. Se puede salir de una opci¢n o volver al men£ anterior
+pulsando la tecla Escape (ESC).
+
+
+3. Opciones del programa:
+El men£ principal se compone de las siguientes opciones:
+-  Clientes  Art°culos  Facturas  Configuraci¢n  ≠Salir!
+
+Cada una de las opciones del men£ principal dan acceso a otro men£
+en el que vienen las opciones para cada men£. A continuaci¢n se
+explica cada men£ y sus respectivas opciones.
+
+3.1. Men£ de Clientes:
+El men£ de clientes da acceso a la secci¢n de clientes, que se
+encarga de llevar el control de cada uno de los clientes que est†n
+en la base de datos. Este men£ contiene las siguientes opciones:
+Nuevo cliente  B£squeda  Listado AlfabÇtico  Listado por c¢digo
+
+3.1.1. Nuevo cliente:
+Esta opci¢n permite ingresar un nuevo cliente en la base de datos.
+Una vez completos todos los campos se puede ingresar el nuevo
+cliente pulsando CTRL-ENTER,o se puede cancelar su entrada pulsando
+ESC. Se pasa de un campo al otro pulsando ENTER, o el tabulador. Si
+se ingresa un cliente con alg£n dato que ya est† en la lista se
+avisa con un mensaje. Los datos a ingresar para cada cliente son:
+     C¢digo : C¢digo del cliente en la base de datos.
+     Nombre : Nombre y apellidos del cliente.
+     Direcci¢n : 
+     Pueblo : 
+     C.P. : C¢digo postal
+     Provincia.
+     DNI.
+     TelÇfono.
+
+3.1.2. B£squeda:
+Esta opci¢n da acceso al men£ de b£squeda de clientes que permite
+buscar un determinado cliente, recorrer la lista de clientes, y
+modificar o borrar la ficha actual. Las opciones de las que se
+compone este submen£ son:
+Buscar cliente  Siguiente  Anterior  Modificar datos  Borrar cliente
+
+Al seleccionar esta opci¢n se presenta en pantalla la ficha actual,
+o sea, la £ltima ficha ingresada en la base de datos, o la £ltima
+ficha buscada. Esta ficha se puede imprimir pulsando CTRL-I.
+
+3.1.2.1. Buscar cliente:
+A travÇs de esta opci¢n se puede buscar un cliente en la base de
+datos. Al seleccionarla se da una lista de los campos por los que
+se puede realizar la b£squeda. Una vez seleccionado el campo de
+b£squeda se pide el dato a buscar. En cualquier momento se puede
+volver al men£ pulsando ESC.
+Nota: Por el momento se puede buscar un dato entero o solo una
+parte de el, pero solo la parte inicial. TambiÇn se debe respetar
+las may£sculas y min£sculas del dato a buscar. Por ejemplo, si se
+quiere buscar a un cliente llamado Juan Gonz†lez, se puede buscar
+por Juan Gonz†lez, Juan, Juan G, etc..., pero no se encontrar† por
+juan, JUAN, etc...
+Si se ha encontrado un cliente determinado, se puede buscar el
+siguiente cliente que coincida,seleccionando el mismo campo de
+b£squeda, pero no sin colocar el dato a buscar, solamente hay que
+pulsar ENTER.
+
+3.1.2.2. Siguiente/Anterior:
+Esta opci¢n pasa a la ficha siguiente o a la ficha anterior a la
+actual.
+
+3.1.2.3. Modificar datos:
+Con esta opci¢n se puede modificar los datos de la ficha actual.
+Las teclas de control son las mismas que en la opci¢n de ingresar
+un cliente.
+
+3.1.2.4. Borrar cliente:
+Permite borrar la ficha actual. Antes de hacerlo permite confirmar
+el borrado.
+
+3.1.3. Listado alfabÇtico:
+Obtiene un listado de los clientes ordenado alfabÇticamente. Se
+deber† ingresar el primer y £ltimo cliente a listar, si no se pone
+ninguno se obtiene un listado de todos los clientes. El listado de
+los clientes se muestra en pantalla. Para obtener un listado por
+impresora se deber† pulsar CTRL-I al terminarse el listado.
+Nota: En esta opci¢n se debe colocar el nombre entero de la persona
+inicial y final del listado, pero no hay que preocuparse de las
+may£sculas y min£sculas, a diferencia de la opci¢n de b£squeda,
+donde se pod°a colocar una parte del nombre pero hab°a que respetar
+las may£sculas.
+
+3.1.4. Listado por c¢digo:
+Esta opci¢n es parecida a la opci¢n anterior solo que obtiene un
+listado ordenado por el n£mero de c¢digo del cliente.
+
+3.2. Men£ de Art°culos:
+El men£ de art°culos da acceso a la secci¢n de art°culos, que lleva
+un control de la base de datos de art°culos. Pr†cticamente el
+contenido de este men£ y sus acciones son similares a los del men£
+de clientes, pero referidos a los art°culos, por lo que no se
+explicar† tan detalladamente. La mayor diferencia se encuentra en
+los datos que componen las fichas. êstos son:
+     C¢digo : C¢digo del art°culo en la base de datos.
+     Descripci¢n.
+     Registro : N£mero de registro o de lote del art°culo.
+     P.S. : Plazo de seguridad.
+     Toxicidad : Letra o n£mero que representa la toxicidad del
+producto.
+     Precio : Precio del art°culo sin IVA.
+
+3.3. Men£ de Facturas:
+Este men£ da acceso a la secci¢n de facturaci¢n, que es la que
+permite hacer las facturas y llevar un control de las cantidades
+facturadas, tanto sea por cliente o entre dos fechas determinadas.
+El contenido de este men£ es:
+Hacer factura  Facturaci¢n por cliente  Facturaci¢n por remesa
+
+3.3.1. Hacer factura:
+A travÇs de esta opci¢n se accede al men£ con el que se pueden
+hacer las facturas.
+Factura A  Factura B
+
+3.3.1.1. Factura A:
+Con esta opci¢n se hace el tipo A de facturas, es decir, facturas
+que tienen un apartado para servicios y otro para productos.
+Inicialmente se pedir†n una serie de datos como el c¢digo del
+cliente, el cultivo o plaga tratados, la situaci¢n del cultivo, la
+fecha del tratamiento (si se pulsa la tecla ESC se tomar† la fecha
+actual), la superficie tratada en m2 y los litros utilizados.
+DespuÇs de introducir estos datos se proceder† a introducir los
+datos de la factura.  Se puede pasar de un campo al otro pulsando
+el tabulador o ENTER. terminar la factura se pulsa CTRL-ENTER,
+entonces se puede pulsar CTRL-I para imprimirla, ESC para anularla,
+o cualquier otra tecla para almacenarla, pero no imprimirla.
+Dentro del apartado de servicios basta con poner el concepto y
+pulsar el tabulador para introducir el importe del mismo; pero
+dentro del apartado de productos, se pedir† el c¢digo o la
+descripci¢n del producto facturado. Si se introduce el c¢digo se
+deber† introducir una C, dos puntos ':' y el c¢digo del producto,
+por ej.: C:5, busca el art°culo con el n£mero de c¢digo 5 en la
+base de datos, en cambio si se quiere introducir la descripci¢n del
+art°culo se deber† introducir una D, los dos puntos ':' y el nombre
+del art°culo, sin importar en este caso las may£sculas; por ej.:
+D:abono, busca el primer art°culo de la lista cuya descripci¢n
+comience por la palabra abono.
+
+3.3.1.2. Factura B:
+Las facturas de tipo B son las que solo tienen el apartado de
+servicios. Las teclas para controlar el proceso de las mismas son
+las mismas que para las facturas de tipo A, por lo que no es
+necesaria una mayor explicaci¢n de este apartado.
+
+3.4. Men£ de configuraci¢n:
+El men£ de configuraci¢n permite adaptar diferentes opciones del
+programa. Las opciones de este men£ son:
+
+Datos monetarios  Impresora  Varios  Salvar configuraci¢n
+
+3.4.1. Datos monetarios:
+Esta opci¢n permite cambiar el valor del I.V.A. aplicado a los
+art°culos.
+
+3.4.2. Impresora:
+A travÇs de esta opci¢n se puede configurar las opciones
+relacionadas con la impresora, como el n£mero de copias a hacer en
+cada impresi¢n, el n£mero m†ximo de l°neas que se pueden imprimir
+en cada p†gina, y el puerto por donde se conecta la impresora al
+ordenador.
+
+3.4.3. Varios:
+La opci¢n Varios permite cambiar otras opciones que no est†n en
+otros men£s. Entre ellas est†n la ubicaci¢n de los ficheros de
+datos en el disco, y la emisi¢n de un sonido cuando ocurre un
+error.
+
+3.4.4. Salvar configuraci¢n:
+Esta opci¢n simplemente guarda los cambios hechos en la
+configuraci¢n para que sean utilizados la siguiente vez que se
+utilice el programa.

@@ -1,0 +1,41 @@
+Lista de ficheros del programa de facturaci¢n
+---------------------------------------------
+
+Directorio      Fichero         Descripci¢n
+----------------------------------------------------------------------------
+\               Instalar.bat    Programa de instalaci¢n
+                Cpu.com         Programa que detecta el tipo de CPU
+                Readme.com      Visor de ficheros
+
+Docs                            Contiene la documentaci¢n del programa
+                Manual          Manual del programa (fichero WordPerfect)
+                Manual.txt      Manual del programa (fichero de texto)
+                Ficheros.txt    Este mismo fichero.
+
+Fuentes                         Contiene el c¢digo fuente del programa
+                Cpu.asm         C¢digo fuente del programa de detecci¢n de CPU
+                                (en ensamblador)
+                Factura.cfg     Fichero de configuraci¢n del programa
+                Control.cpp     M¢dulo de control de pantalla, ventanas, etc.
+                Factura.cpp     Programa principal
+                Articulo.dat    Fichero de art¡culos (ejemplo)
+                Cabecera.dat    Cabecera de factura
+                Clientes.dat    Fichero de clientes (ejemplo)
+                Fact.dat        \
+                Factura.dat      | Ficheros de facturas, ahora no recuerdo 
+                Facturas.dat    /  que es cada uno.
+                Boolean.h       \
+                Control.h        | Ficheros de cabecera del programa
+                Defines.h        | (los famosos include del C)
+                Fact.h           |
+                Fichas.h         |
+                Tipos.h         /
+                Factura.prj     Fichero de proyecto para el Borland C
+
+Prog_1          Factura.cfg     \  Ficheros para la instalaci¢n del programa
+                Cabecera.dat     | de facturaci¢n en ordenadores con
+                F_math.h        /  coprocesador matem tico
+
+Prog_2          Factura.cfg     \  Ficheros para la instalaci¢n del programa
+                Cabecera.dat     | de facturaci¢n en ordenadores sin
+                F_emu.exe       /  coprocesador matem tico
